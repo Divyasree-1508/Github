@@ -1,11 +1,11 @@
-name: Docker Build and Push
+name: Docker CI
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
 
     steps:
